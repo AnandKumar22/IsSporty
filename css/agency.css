@@ -230,6 +230,8 @@ fieldset[disabled] .btn-xl.active {
   }
 }
 header {
+  background-color:gray;
+  opacity:.45;
   /*background-image: url('../img/header-bg.jpg');*/
   background-repeat: no-repeat;
   background-attachment: scroll;
@@ -904,4 +906,8 @@ body {
 #copyright .container .row .col-lg-12 p{
 	color:white;
 	font-size:20px;
+}
+#contact .container .row .col-lg-12 #contactForm{
+	width:50%;
+	margin-left:18%;
 }
